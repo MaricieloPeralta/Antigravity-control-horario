@@ -6,11 +6,10 @@ class Jornada {
         this.usuario = usuario;
     }
     saludarJornada() {
+        console.log("-------------------------------------------------")
         console.log(`Hola ${this.usuario} bienvenido a la plataforma`)
-        console.log(`La fecha es: ${this.fecha}, inicia a las ${this.horaInicio} y termina a las ${this.horaFin}`)
     }
     visualizarJornada() {
-        console.log("Sus datos:")
         console.log(`Fecha: ${this.fecha}, Hora de inicio: ${this.horaInicio}, Hora de fin: ${this.horaFin}`)
     }
 
