@@ -15,13 +15,13 @@ class Pausa {
         console.log("- Estirar las piernas")
         console.log("- Salir a tomar aire")
         console.log("-------------------------------------------------")
-
-        let Pausa1 = new Pausa("14:00", "15:00", "Maricielo");
-        let Pausa2 = new Pausa("14:00", "15:00", "Camila");
-        Pausa1.saludarPausa();
-        Pausa1.visualizarPausa();
-        Pausa2.saludarPausa();
-        Pausa2.visualizarPausa();
     }
-
 }
+let Pausa1 = new Pausa("14:00", "15:00", "Maricielo");
+let Pausa2 = new Pausa("14:00", "15:00", "Camila");
+
+Pausa1.saludarPausa();
+Pausa1.visualizarPausa();
+
+Pausa2.saludarPausa();
+Pausa2.visualizarPausa();
