@@ -9,7 +9,9 @@ class Usuario {
   obtenerInfo() {
     return `Usuario: ${this.nombre} | Email: ${this.email} | Rol: ${this.rol}`;
   }
-
+saludarUsuario() {
+        console.log(`Hola ${this.nombre} bienvenido a la plataforma`)
+    }
   esAdmin() {
     return this.rol === 'admin';
   }
