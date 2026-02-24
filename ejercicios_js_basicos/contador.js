@@ -1,4 +1,4 @@
-let horasTrabajadas = 0;
+let horasTrabajadas = 1;
 
 function incrementarHoras(horas) {
   horasTrabajadas += horas;
